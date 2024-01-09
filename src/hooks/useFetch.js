@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react"
 
+// hooks/useFetch.js
 function useFetch(url) {
   const [loading, setLoading] = useState(true)
   const [data, setData] = useState({})
